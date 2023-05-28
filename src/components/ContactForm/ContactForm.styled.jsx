@@ -22,16 +22,17 @@ export const InputStyled = styled.input`
 
 export const BtnStyled = styled.button`
   display: inline-block;
-  padding: 5px;
+  padding: 8px 16px;
   margin: 0 20px;
   font-size: 16px;
-  background-color: #aaaaaa;
-  border-radius: 15px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 
-  &:hover{
-    background-color: #93a7df;
-    border-color: #a2a4a7;
-    color: #ffffff;
+  &:hover {
+    background-color: #45a049;
   }
 `;
 
